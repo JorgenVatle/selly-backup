@@ -8,6 +8,9 @@
     "prepare": "tsc",
     "postpublish": "git push && git push --tags"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JorgenVatle/selly-download.git"
