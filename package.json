@@ -1,6 +1,6 @@
 {
   "name": "selly-backup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Download all of your Selly products with one simple command-line utility",
   "main": "dist/index.js",
   "scripts": {
