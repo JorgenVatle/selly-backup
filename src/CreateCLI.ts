@@ -27,4 +27,6 @@ export default async () => {
     const products = await Selly.all();
 
     FS.writeFileSync(`./selly_products_${Date.now()}.json`, JSON.stringify(products));
+
+    return products;
 }
