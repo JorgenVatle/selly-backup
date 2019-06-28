@@ -7,8 +7,8 @@ const Package = require('../package.json');
 export default async () => {
     Commander.version(Package.version);
 
-    Commander.option('-e --email', 'Your Selly Email-Address')
-        .option('-a --apikey', 'Your Selly API Key')
+    Commander.option('-e --email <emailAddress>', 'Your Selly Email-Address')
+        .option('-a --apikey <apiKey>', 'Your Selly API Key')
         .parse(process.argv);
 
     if (!Commander.email) {
