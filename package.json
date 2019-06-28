@@ -1,0 +1,25 @@
+{
+  "name": "selly-download",
+  "version": "1.0.0",
+  "description": "Download all of your Selly products with one simple command-line utility",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgenVatle/selly-download.git"
+  },
+  "keywords": [
+    "selly",
+    "download",
+    "cli",
+    "utility"
+  ],
+  "author": "Jørgen <Jorgen@WcAServices.net> (https://github.com/JorgenVatle)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgenVatle/selly-download/issues"
+  },
+  "homepage": "https://github.com/JorgenVatle/selly-download#readme"
+}
