@@ -1,5 +1,5 @@
 # Selly Download
-A very simple command-line utility for downloading your Selly Products to a JSON file.
+A very simple command-line utility for downloading your [Selly](https://selly.io) Products to a JSON file.
 
 ## Requirements
 - [Node.js](https://nodejs.org/en/) v6.4 or greater
