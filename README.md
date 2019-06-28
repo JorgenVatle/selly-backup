@@ -6,7 +6,7 @@ A very simple command-line utility for downloading your Selly Products to a JSON
 
 ## Installation
 ```bash
-npm i -g selly-download
+npm i -g selly-backup
 ```
 
 ## Usage
