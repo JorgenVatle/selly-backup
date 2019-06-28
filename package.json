@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/JorgenVatle/selly-download#readme",
   "devDependencies": {
+    "@types/node": "^12.0.10",
     "typescript": "^3.5.2"
   },
   "dependencies": {
