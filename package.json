@@ -9,7 +9,8 @@
     "postpublish": "git push && git push --tags"
   },
   "files": [
-    "dist"
+    "dist",
+    "bin"
   ],
   "repository": {
     "type": "git",
