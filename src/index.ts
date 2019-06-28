@@ -1,8 +1,7 @@
 import CreateCLI from './CreateCLI';
 import Chalk from 'chalk';
 
-try {
-    CreateCLI();
-} catch (error) {
+CreateCLI().catch((error) => {
     console.error(Chalk.bgRed(error.message));
-}
+    process.exit(1);
+});
