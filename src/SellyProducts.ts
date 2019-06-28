@@ -25,7 +25,14 @@ export default class SellyProducts {
                 username: options.email,
                 password: options.apiKey,
             }
-        })
+        });
+    }
+
+    /**
+     * Get products from the given page for the current merchant.
+     */
+    protected getPage(page: number = 1) {
+        return this.API.get('/products', { params: { page } }).then((response) => response.data);
     }
 
 }
