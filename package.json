@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/JorgenVatle/selly-download/issues"
   },
-  "homepage": "https://github.com/JorgenVatle/selly-download#readme"
+  "homepage": "https://github.com/JorgenVatle/selly-download#readme",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
 }
