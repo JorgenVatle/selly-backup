@@ -10,11 +10,11 @@ npm i -g selly-backup
 ```
 
 ## Usage
-Run the following command to create a timestamped JSON-formatted list of your [Selly](https://selly.io) products. 
+Run the following command to create a timestamped JSON-formatted list of your [Selly](https://selly.io) products in 
+the current directory. 
 ```bash
 selly-download --email john@doe.com --apikey yourSellyApiKeyHere 
 ```
-A new file will be created in your current directory.
 
 ## License
 This repository is licensed under the ISC license.
