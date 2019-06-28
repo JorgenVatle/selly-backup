@@ -70,3 +70,6 @@ dist
 
 # JetBrains IDE directory.
 .idea
+
+# Generated Selly files.
+selly_*.json
