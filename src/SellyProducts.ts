@@ -1,5 +1,7 @@
 import Axios, { AxiosInstance } from 'axios';
 
+const Loading = require('loading-cli');
+
 /**
  * Constructor options
  */
@@ -48,10 +50,15 @@ export default class SellyProducts {
         let result: Array<Product> = [];
         let currentPage = 0;
 
+        const loader = Loading('Downloading product page #1').start();
+
         while(typeof page === 'undefined' || page.length) {
             page = await this.getPage(currentPage += 1);
+            loader.text = `Downloading product page #${currentPage}`;
             result = [...result, ...page];
         }
+
+        loader.stop();
 
         return result;
     }
