@@ -52,6 +52,8 @@ export default class SellyProducts {
             page = await this.getPage(currentPage += 1);
             result = [...result, ...page];
         }
+
+        return result;
     }
 
 }
