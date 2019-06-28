@@ -1,4 +1,4 @@
-# Selly Download
+# Selly Backup
 A very simple command-line utility for downloading your [Selly](https://selly.io) Products to a JSON file.
 
 ## Requirements
